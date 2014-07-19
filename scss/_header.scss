@@ -1,0 +1,26 @@
+.contain-to-grid
+{
+	background-color: #111;
+	border-bottom: 2px solid #222;
+}
+
+.top-bar
+{
+	background-color: #111;
+	
+
+	.logo
+	{
+		border-left: 2px solid #333;
+		border-bottom: 2px solid #333;
+		border-right: 2px solid #333;
+		background-color: #111;
+		border-radius: .3em;
+	}
+}
+
+@media only screen { }
+
+@media only screen and (min-width: 40.063em) { }
+
+@media only screen and (min-width: 64.063em) { }
