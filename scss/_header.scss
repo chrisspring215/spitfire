@@ -19,8 +19,24 @@
 	}
 }
 
+.top-bar-section li:not(.has-form) a:not(.button)
+{
+	background-color: #111;
+}
+
 @media only screen { }
 
-@media only screen and (min-width: 40.063em) { }
+@media only screen and (min-width: 40.063em) { 
+
+	/* GLOBAL NAV BUTTONS */
+	.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button)
+	{
+		border-left: 1px solid #333;
+		border-right: 1px solid #333;
+	}
+
+	
+
+}
 
 @media only screen and (min-width: 64.063em) { }

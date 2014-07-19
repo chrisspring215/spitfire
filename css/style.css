@@ -8172,6 +8172,19 @@ th {
   border-radius: .3em;
 }
 
+/* line 23, ../scss/_header.scss */
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #111;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* GLOBAL NAV BUTTONS */
+  /* line 33, ../scss/_header.scss */
+  .top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button) {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+  }
+}
 /* line 2, ../scss/_main.scss */
 .banner-image {
   height: auto;
@@ -8181,6 +8194,10 @@ th {
 @media only screen and (min-width: 40.063em) {
   /* line 12, ../scss/_main.scss */
   main {
-    padding-top: 4em;
+    padding-top: 5em;
   }
+}
+/* line 2, ../scss/_footer.scss */
+footer {
+  background-color: #9c4527;
 }
