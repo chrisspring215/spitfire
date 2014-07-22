@@ -1653,7 +1653,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 
 /* line 1120, ../scss/_foundation.scss */
 button.success, .button.success {
-  background-color: #5da423;
+  background-color: #f36631;
   border-color: #7d371f;
   color: white;
 }
@@ -8191,13 +8191,91 @@ th {
   width: 100%;
 }
 
-@media only screen and (min-width: 40.063em) {
-  /* line 12, ../scss/_main.scss */
-  main {
-    padding-top: 5em;
+/* line 8, ../scss/_main.scss */
+.button.round {
+  border-radius: .3em;
+}
+
+/* line 13, ../scss/_main.scss */
+main p, main li, label {
+  font-weight: 300;
+  font-size: 125%;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* line 21, ../scss/_main.scss */
+textarea {
+  color: #888;
+}
+
+/* line 26, ../scss/_main.scss */
+main h2 {
+  font-weight: 500;
+}
+
+/* line 31, ../scss/_main.scss */
+main h3 {
+  color: #f7941d;
+  font-variant: small-caps;
+}
+
+/* line 37, ../scss/_main.scss */
+strong {
+  color: #f7941d;
+}
+
+/* line 42, ../scss/_main.scss */
+select {
+  font-size: 0.875rem;
+  color: #888;
+}
+
+/* line 49, ../scss/_main.scss */
+main ul {
+  list-style-image: url("../img/flame-li.png");
+}
+
+@media only screen and (min-width: 64.063em) {
+  /* line 63, ../scss/_main.scss */
+  .large-contact-info {
+    margin: 1em 0 2em 0;
+    color: #999;
+    font-weight: 300;
+    font-variant: small-caps;
+  }
+  /* line 70, ../scss/_main.scss */
+  .large-contact-info br {
+    margin: 0 0 .25em 0;
+  }
+
+  /* line 76, ../scss/_main.scss */
+  .main-banner-image {
+    margin-bottom: 2em;
   }
 }
 /* line 2, ../scss/_footer.scss */
 footer {
   background-color: #9c4527;
+  margin: 2em 0 0 0;
+  padding: 2em 0 2em 0;
+}
+/* line 8, ../scss/_footer.scss */
+footer .header-font {
+  font-family: "Playfair Display", serif;
+  font-size: .95em;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0;
+}
+/* line 17, ../scss/_footer.scss */
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  line-height: 1.3em;
+}
+/* line 23, ../scss/_footer.scss */
+footer ul li {
+  font-weight: 100;
+  font-variant: small-caps;
 }

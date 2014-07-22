@@ -4,18 +4,77 @@
 	width: 100%;
 }
 
+.button.round
+{
+	border-radius: .3em;
+}
+
+main p, main li, label
+{
+	font-weight: 300;
+	font-size: 125%;
+	font-weight: 300;
+	color: #fff;
+}
+
+textarea
+{
+	color: #888;
+}
+
+main h2
+{
+	font-weight: 500;
+}
+
+main h3
+{
+	color: $light-orange;
+	font-variant: small-caps;
+}
+
+strong
+{
+	color: $light-orange;
+}
+
+select
+{
+	font-size: 0.875rem;
+	color: #888;
+}
+
+
+main ul
+{
+	list-style-image:url('../img/flame-li.png');
+}
+
 @media only screen { }
 
 @media only screen and (min-width: 40.063em)
 {
-	main
-	{
-		padding-top: 5em;
-	}
 
 }
 
 @media only screen and (min-width: 64.063em) {
 
+	.large-contact-info
+	{
+		margin: 1em 0 2em 0;
+		color: #999;
+		font-weight: 300;
+		font-variant: small-caps;
+
+		br
+		{
+			margin: 0 0 .25em 0;
+		}
+	}
+
+	.main-banner-image
+	{
+		margin-bottom: 2em;
+	}
 
 }

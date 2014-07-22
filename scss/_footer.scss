@@ -1,4 +1,29 @@
 footer
 {
 	background-color: $red;
+	margin: 2em 0 0 0;
+	padding: 2em 0 2em 0;
+
+	.header-font
+	{
+		font-family: $header;
+		font-size: .95em;
+		font-weight: bold;
+		color: #222;
+		margin-bottom: 0;
+	}
+
+	ul
+	{
+		list-style-type: none;
+		margin: 0;
+		line-height: 1.3em;
+
+		li
+		{
+			font-weight: 100;
+			font-variant: small-caps;
+
+		}
+	}
 }
